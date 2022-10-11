@@ -1,0 +1,2 @@
+execute as @a[distance=..5] unless score @s asb.scraper matches 3.. run tag @s add asb.scraper.target
+execute positioned ~ ~-0.66 ~ if entity @a[tag=asb.scraper.target,distance=..1] run function asb:entity/scraper/leech/found_player

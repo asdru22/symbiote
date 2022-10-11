@@ -1,0 +1,39 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "asb:storage"
+      },
+      "ops": [
+        {
+          "source": "root.temp.item.tag",
+          "target": "{}",
+          "op": "merge"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": [
+        {
+          "translate": "entity.asb.scraper.draning",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "entity.asb.scraper.shake",
+          "color": "white",
+          "italic": false
+        }
+      ]
+    }  
+  ]
+  

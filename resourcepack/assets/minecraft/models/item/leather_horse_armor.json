@@ -1,0 +1,26 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "minecraft:item/leather_horse_armor"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 6901000
+        },
+        "model": "asb:item/scraper_helmets/leather_1"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 6901001
+        },
+        "model": "asb:item/scraper_helmets/leather_2"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 6901002
+        },
+        "model": "asb:item/scraper_helmets/leather_3"
+      }
+    ]
+  }
