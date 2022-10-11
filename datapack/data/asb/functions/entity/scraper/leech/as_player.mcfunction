@@ -1,5 +1,7 @@
 scoreboard players add @s asb.scraper 1
-execute if score @s asb.scraper matches 3.. run tag @s remove asb.scraper.target
+execute if score @s asb.scraper matches 3.. run tag @s add asb.scraper.ignore
+
+playsound asb:entity.scraper.leech hostile @a[distance=..10] ~ ~ ~ 2 0.85
 
 execute if data entity @s Inventory[{Slot:103b}].Count run function asb:entity/player/scraper_leech/has_helmet
 

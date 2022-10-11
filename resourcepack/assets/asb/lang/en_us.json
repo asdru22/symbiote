@@ -2,5 +2,10 @@
     "pack.asb":"idk",
     
     "entity.asb.scraper.draning":"Scrapers are draining your health!",
-    "entity.asb.scraper.shake":"Shake your head to throw them off!"
+    "entity.asb.scraper.shake":"Shake your head to throw them off!",
+
+
+    "subtitle.asb.entity.scraper.leech":"Scaper leeches onto player",
+    "subtitle.asb.entity.scraper.throw":"Scaper gets thrown",
+    "subtitle.asb.entity.scraper.hurt":"Scaper is hurt"
 }
