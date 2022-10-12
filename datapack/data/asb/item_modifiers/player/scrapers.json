@@ -29,7 +29,7 @@
       "entity": "this",
       "lore": [
         {
-          "text": "entity.asb.scraper.shake",
+          "translate": "entity.asb.scraper.shake",
           "color": "white",
           "italic": false
         }
