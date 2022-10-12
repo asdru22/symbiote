@@ -1,0 +1,11 @@
+{
+    "pack.aem":"idk",
+    
+    "entity.aem.scraper.draning":"Scrapers are draining your health!",
+    "entity.aem.scraper.shake":"Shake your head to throw them off!",
+
+
+    "subtitle.aem.entity.scraper.leech":"Scaper leeches onto player",
+    "subtitle.aem.entity.scraper.throw":"Scaper gets thrown",
+    "subtitle.aem.entity.scraper.hurt":"Scaper is hurt"
+}

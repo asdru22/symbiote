@@ -1,1 +1,0 @@
-execute if entity @s[scores={asb.scraper=1..}] run function asb:entity/player/scraper_leech/shake/main

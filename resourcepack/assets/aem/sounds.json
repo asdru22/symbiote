@@ -1,0 +1,22 @@
+{
+    "entity.scraper.leech": {
+        "sounds":   [
+            "aem:entity/scraper/leech"
+        ],
+        "subtitle" : "subtitle.aem.entity.scraper.leech"
+    },
+    "entity.scraper.throw": {
+        "sounds":   [
+            "aem:entity/scraper/throw"
+        ],
+        "subtitle" : "subtitle.aem.entity.scraper.throw"
+    },
+    "entity.scraper.hurt": {
+        "sounds":   [
+            "aem:entity/scraper/hurt_1",
+            "aem:entity/scraper/hurt_2",
+            "aem:entity/scraper/hurt_3"
+        ],
+        "subtitle" : "subtitle.aem.entity.scraper.hurt"
+    }
+}

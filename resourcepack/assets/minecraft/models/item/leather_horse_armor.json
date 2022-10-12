@@ -8,19 +8,19 @@
         "predicate": {
           "custom_model_data": 6901000
         },
-        "model": "asb:item/scraper_helmets/leather_1"
+        "model": "aem:item/scraper_helmets/leather_1"
       },
       {
         "predicate": {
           "custom_model_data": 6901001
         },
-        "model": "asb:item/scraper_helmets/leather_2"
+        "model": "aem:item/scraper_helmets/leather_2"
       },
       {
         "predicate": {
           "custom_model_data": 6901002
         },
-        "model": "asb:item/scraper_helmets/leather_3"
+        "model": "aem:item/scraper_helmets/leather_3"
       }
     ]
   }

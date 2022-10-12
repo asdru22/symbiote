@@ -1,2 +1,0 @@
-tag @s remove asb.setup
-execute if predicate asb:entity/scraper/convert_to_drippler run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:potion",Count:1b,tag:{DeathLootTable:"asb:entity/drippler",CustomPotionColor:16777215,CustomModelData:6901001}}],Health:25f,ActiveEffects:[{Id:14,Amplifier:1b,Duration:200000,ShowParticles:0b}],ArmorDropChances:[-1000.00f,-1000.00f,-1000.00f,-1000.00f],Attributes:[{Name:"minecraft:generic.knockback_resistance",Base:0},{Name:"minecraft:generic.max_health",Base:25}]}

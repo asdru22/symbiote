@@ -1,1 +1,0 @@
-execute if entity @s[tag=asb.block.billboard] run function asb:block/billboard/block/tick

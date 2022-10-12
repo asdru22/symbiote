@@ -41,17 +41,17 @@
           "predicate": {
             "custom_model_data": 6901000
           },
-          "model": "asb:item/scraper_helmets/empty_1"
+          "model": "aem:item/scraper_helmets/empty_1"
         },{
           "predicate": {
             "custom_model_data": 6901001
           },
-          "model": "asb:item/scraper_helmets/empty_2"
+          "model": "aem:item/scraper_helmets/empty_2"
         },{
           "predicate": {
             "custom_model_data": 6901002
           },
-          "model": "asb:item/scraper_helmets/empty_3"
+          "model": "aem:item/scraper_helmets/empty_3"
         }
       ]
     }
