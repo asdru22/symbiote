@@ -1,1 +1,1 @@
-execute if score .id aem.id matches 1 run function aem:entity/scraper/set_max
+execute if entity @s[advancements={aem:technical/entity/symbiote_hit_player={scraper=true}}] run function aem:entity/scraper/set_max

@@ -11,17 +11,6 @@
         }
       }
     },
-    "drippler": {
-      "trigger": "minecraft:entity_hurt_player",
-      "conditions": {
-        "damage": {
-          "source_entity": {
-            "type": "minecraft:vex",
-            "nbt": "{Tags:[\"aem.drippler\"]}"
-          }
-        }
-      }
-    },
     "flutterpillar": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
@@ -37,7 +26,6 @@
   "requirements": [
     [
       "scraper",
-      "drippler",
       "flutterpillar"
     ]
   ],

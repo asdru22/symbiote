@@ -1,1 +1,1 @@
-execute if entity @s[tag=aem.sybiote.scraper] run function aem:entity/scraper/helmet
+execute if entity @s[scores={aem.id=1}] run function aem:entity/scraper/helmet
