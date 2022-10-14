@@ -1,15 +1,15 @@
 {
-    "entity.scraper.leech": {
+    "entity.symbiote.leech": {
         "sounds":   [
-            "aem:entity/scraper/leech"
+            "aem:entity/symbiote/leech"
         ],
-        "subtitle" : "subtitle.aem.entity.scraper.leech"
+        "subtitle" : "subtitle.aem.entity.symbiote.leech"
     },
-    "entity.scraper.throw": {
+    "entity.symbiote.throw": {
         "sounds":   [
-            "aem:entity/scraper/throw"
+            "aem:entity/symbiote/throw"
         ],
-        "subtitle" : "subtitle.aem.entity.scraper.throw"
+        "subtitle" : "subtitle.aem.entity.symbiote.throw"
     },
     "entity.scraper.hurt": {
         "sounds":   [

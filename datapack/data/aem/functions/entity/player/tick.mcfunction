@@ -1,1 +1,1 @@
-execute if entity @s[scores={aem.scraper=1..}] run function aem:entity/player/scraper_leech/shake/main
+execute if entity @s[scores={aem.symbiote=1..}] run function aem:entity/player/symbiote_leech/shake/main

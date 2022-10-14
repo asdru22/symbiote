@@ -2,7 +2,8 @@ scoreboard objectives add aem.data dummy
 scoreboard objectives add aem.x dummy
 scoreboard objectives add aem.y dummy
 scoreboard objectives add aem.id dummy
-scoreboard objectives add aem.scraper dummy
+scoreboard objectives add aem.symbiote dummy
+scoreboard objectives add aem.max_symbiotes dummy
 
 scoreboard players set const.-1 aem.data -1
 

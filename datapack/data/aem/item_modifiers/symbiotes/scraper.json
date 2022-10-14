@@ -18,7 +18,7 @@
       "entity": "this",
       "name": [
         {
-          "translate": "entity.aem.scraper.draning",
+          "translate": "entity.aem.symbiote.draning",
           "color": "red",
           "italic": false
         }
@@ -29,7 +29,7 @@
       "entity": "this",
       "lore": [
         {
-          "translate": "entity.aem.scraper.shake",
+          "translate": "entity.aem.symbiote.shake",
           "color": "white",
           "italic": false
         }

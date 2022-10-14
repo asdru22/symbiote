@@ -1,1 +1,0 @@
-execute as @a[distance=..5] unless score @s aem.scraper matches 3.. run tag @s add aem.scraper.target

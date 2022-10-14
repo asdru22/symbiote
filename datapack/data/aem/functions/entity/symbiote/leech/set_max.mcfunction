@@ -1,0 +1,1 @@
+execute if score .id aem.id matches 1 run function aem:entity/scraper/set_max
