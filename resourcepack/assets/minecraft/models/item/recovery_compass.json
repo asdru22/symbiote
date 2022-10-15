@@ -52,6 +52,24 @@
             "custom_model_data": 6901002
           },
           "model": "aem:item/scraper_helmets/empty_3"
+        },
+        {
+          "predicate": {
+            "custom_model_data": 6901003
+          },
+          "model": "aem:item/iris"
+        },
+        {
+          "predicate": {
+            "custom_model_data": 6901004
+          },
+          "model": "aem:item/symbiotic_glass"
+        },
+        {
+          "predicate": {
+            "custom_model_data": 6901005
+          },
+          "model": "aem:item/fleshy_tentacle"
         }
       ]
     }

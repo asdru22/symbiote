@@ -1,5 +1,9 @@
 {
-    "pack.aem":"idk",
+    "pack.aem":"Symbiote",
+
+    "item.aem.fleshy_tentacle":"Fleshy Tentacle",
+    "item.aem.iris":"Iris",
+    "item.aem.symbiotic_glass":"Symbiotic Glass",
 
     "entity.aem.scraper":"Scraper",
     "entity.aem.drippler":"Drippler",
