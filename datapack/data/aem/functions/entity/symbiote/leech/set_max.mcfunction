@@ -1,1 +1,2 @@
 execute if entity @s[advancements={aem:technical/entity/symbiote_hit_player={scraper=true}}] run function aem:entity/scraper/set_max
+execute if entity @s[advancements={aem:technical/entity/symbiote_hit_player={flutterpillar=true}}] run function aem:entity/flutterpillar/set_max

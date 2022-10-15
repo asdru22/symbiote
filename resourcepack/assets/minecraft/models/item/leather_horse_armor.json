@@ -21,6 +21,12 @@
           "custom_model_data": 6901002
         },
         "model": "aem:item/scraper_helmets/leather_3"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 6901002
+        },
+        "model": "aem:item/flutterpillar_helmet"
       }
     ]
   }

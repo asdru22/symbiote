@@ -4,5 +4,7 @@ execute if score .keepInv aem.data matches 0 as @e[type=item,nbt={Item:{tag:{Unb
 
 advancement revoke @s only aem:technical/player/die_with_symbiotes
 scoreboard players reset @s aem.symbiote
-scoreboard players set @s aem.symbiote 0
+scoreboard players set @s aem.max_symbiotes 0
+scoreboard players reset @s aem.id
+
 tag @s remove aem.symbiote.ignore

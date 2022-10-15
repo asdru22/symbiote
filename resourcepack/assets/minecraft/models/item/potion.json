@@ -16,6 +16,12 @@
         "custom_model_data": 6901001
       },
       "model": "aem:entity/drippler"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6901002
+      },
+      "model": "aem:entity/flutterpillar"
     }
   ]
 }

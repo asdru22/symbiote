@@ -6,7 +6,7 @@
         "damage": {
           "source_entity": {
             "type": "minecraft:vex",
-            "nbt": "{Tags:[\"aem.symbiote\"]}"
+            "nbt": "{Tags:[\"aem.scraper\"]}"
           }
         }
       }

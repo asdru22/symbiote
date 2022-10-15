@@ -1,2 +1,2 @@
-scoreboard players reset @s aem.max_symbiotes
+scoreboard players set @s aem.max_symbiotes 0
 scoreboard players reset @s aem.id

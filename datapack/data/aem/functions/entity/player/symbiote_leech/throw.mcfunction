@@ -1,1 +1,3 @@
 execute if entity @s[scores={aem.id=1}] anchored eyes run summon vex ^ ^ ^0.5 {Health:0f,ArmorItems:[{},{},{},{id:"minecraft:potion",Count:1b,tag:{CustomPotionColor:16593715,CustomModelData:6901000}}],ActiveEffects:[{Id:14,Amplifier:1b,Duration:200000,ShowParticles:0b}]}
+
+execute if entity @s[scores={aem.id=2}] anchored eyes run summon vex ^ ^ ^0.5 {Health:0f,ArmorItems:[{},{},{},{id:"minecraft:potion",Count:1b,tag:{CustomPotionColor:16593715,CustomModelData:6901002}}],ActiveEffects:[{Id:14,Amplifier:1b,Duration:200000,ShowParticles:0b}]}
