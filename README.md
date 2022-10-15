@@ -2,6 +2,6 @@
 Content so far implemented:   
 Scrapers and Dripplers  
 - They have a low chance of spawning when Striders are hit by players
-- They drop nothing
+- They drop nothing  
 Flutterpillars  
 - Spawn conditions yet to be implemented
