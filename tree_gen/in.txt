@@ -1,0 +1,2 @@
+connector.sw 1 0
+display.root 1 -1

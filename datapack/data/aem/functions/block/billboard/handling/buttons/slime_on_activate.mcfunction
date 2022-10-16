@@ -1,2 +1,0 @@
-execute if entity @s[type=armor_stand] if data entity @s ArmorItems[3].tag.aem.click at @s run summon slime ~0.7 ~-0.25 ~ {Size:0,NoGravity:1b,Silent:1b,PersistenceRequired:1b,NoAI:1b,CanPickUpLoot:0b,Tags:["aem.billboard","aem.click","aem.setup","aem.button","aem.display"],ActiveEffects:[{Id:10,Amplifier:10b,Duration:200,ShowParticles:0b},{Id:11,Amplifier:10b,Duration:200,ShowParticles:0b},{Id:14,Amplifier:10b,Duration:200,ShowParticles:0b}]}
-execute as @e[type=slime,tag=aem.click,tag=aem.setup,limit=1,sort=nearest] run function aem:block/billboard/handling/slime_setup

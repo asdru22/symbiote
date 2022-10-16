@@ -7,6 +7,6 @@ scoreboard players set .override aem.data 1
 execute positioned ~1 ~0.25 ~0.25 run function aem:block/billboard/impl/buttons/override
 scoreboard players reset .override aem.data
 
-execute positioned ~-0.4 ~-1 ~-1 run tag @e[type=armor_stand,tag=aem.display,dx=0,dy=2,dz=2] add aem.save
+execute positioned ~-0.4 ~-1.25 ~-1 run tag @e[type=armor_stand,tag=aem.display,dx=0,dy=2,dz=2] add aem.save
 execute as @e[type=armor_stand,tag=aem.display,tag=aem.billboard] if score @s aem.id = .temp aem.data at @s run function aem:block/billboard/impl/buttons/clear
 execute as @e[type=slime,tag=aem.click,tag=aem.setup] run function aem:block/billboard/handling/slime_setup
