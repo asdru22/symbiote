@@ -11,7 +11,7 @@
                 "function": "minecraft:set_name",
                 "name": {
                   "translate": "block.aem.billboard",
-                  "color": "aqua",
+                  "color": "white",
                   "italic": false
                 }
               },
@@ -21,13 +21,11 @@
               },
               {
                 "function": "minecraft:set_lore",
-                "lore": [
-                  {
-                    "translate": "pack.aem",
-                    "color": "#007069",
-                    "italic": true
-                  }
-                ]
+                "lore": [{
+                  "translate": "pack.aem",
+                  "color": "#990E6B",
+                  "italic": true
+                }]
               }
             ]
           }
