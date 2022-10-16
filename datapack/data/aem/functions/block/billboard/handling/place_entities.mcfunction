@@ -1,0 +1,2 @@
+summon marker ~ ~.5 ~ {Tags:["aem.billboard","aem.billboard.center","aem.setup"]}
+execute as @e[type=marker,tag=aem.billboard.center,tag=aem.setup] run function aem:block/billboard/handling/marker_setup
