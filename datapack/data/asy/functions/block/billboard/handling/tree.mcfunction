@@ -1,0 +1,4 @@
+summon armor_stand ~ ~ ~0.5 {NoGravity:1b, Invulnerable : 1b, Marker : 1b, Invisible:1b, Tags : ["asy.billboard", "asy.display", "asy.setup"], ArmorItems : [{}, {}, {}, { id:"minecraft:quartz",Count : 1b,tag : {CustomModelData:6901006,asy:{cmd:6901006,click:"connector"}}}]}
+summon armor_stand ~ ~-0.5 ~0.5 {NoGravity:1b, Invulnerable : 1b, Marker : 1b, Invisible:1b, Tags : ["asy.billboard", "asy.display", "asy.setup"], ArmorItems : [{}, {}, {}, { id:"minecraft:gunpowder",Count : 1b,tag : {CustomModelData:6901006,asy:{cmd:6901006,click:"display.root"}}}]}
+
+execute as @e[type=#asy:billboard,tag=asy.billboard,tag=asy.setup] run function asy:block/billboard/handling/setup

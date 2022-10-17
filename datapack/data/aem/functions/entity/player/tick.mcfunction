@@ -1,1 +1,0 @@
-execute if entity @s[scores={aem.symbiote=1..}] run function aem:entity/player/symbiote_leech/shake/main

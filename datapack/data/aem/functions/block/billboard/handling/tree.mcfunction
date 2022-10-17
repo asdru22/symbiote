@@ -1,4 +1,0 @@
-summon armor_stand ~ ~ ~0.5 {NoGravity:1b, Invulnerable : 1b, Marker : 1b, Invisible:1b, Tags : ["aem.billboard", "aem.display", "aem.setup"], ArmorItems : [{}, {}, {}, { id:"minecraft:quartz",Count : 1b,tag : {CustomModelData:6901006,aem:{cmd:6901006,click:"connector"}}}]}
-summon armor_stand ~ ~-0.5 ~0.5 {NoGravity:1b, Invulnerable : 1b, Marker : 1b, Invisible:1b, Tags : ["aem.billboard", "aem.display", "aem.setup"], ArmorItems : [{}, {}, {}, { id:"minecraft:gunpowder",Count : 1b,tag : {CustomModelData:6901006,aem:{cmd:6901006,click:"display.root"}}}]}
-
-execute as @e[type=#aem:billboard,tag=aem.billboard,tag=aem.setup] run function aem:block/billboard/handling/setup

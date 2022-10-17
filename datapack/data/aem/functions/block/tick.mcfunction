@@ -1,1 +1,0 @@
-execute if entity @s[tag=aem.block.billboard] run function aem:block/billboard/block/tick

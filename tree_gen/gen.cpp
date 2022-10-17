@@ -35,16 +35,16 @@ int main() {
 		else if (counter == 2)  {
 			y = stoi(str);
 			file << "summon armor_stand ~ ~" << y / 2.0 << " ~"<< x / 2.0;
-			file << " {NoGravity:1b, Invulnerable : 1b, Marker : 1b, Invisible:1b, Tags : [\"aem.billboard\", \"aem.display\", \"aem.setup\"], ArmorItems : [{}, {}, {}, { id:\"minecraft:";
+			file << " {NoGravity:1b, Invulnerable : 1b, Marker : 1b, Invisible:1b, Tags : [\"asy.billboard\", \"asy.display\", \"asy.setup\"], ArmorItems : [{}, {}, {}, { id:\"minecraft:";
 			if(type=="connector") file<< "quartz";
 			else file<<"gunpowder";
-			file <<"\",Count : 1b,tag : {CustomModelData:" << 6901000 + cmd << ",aem:{cmd:" << 6901000 + cmd << ",click:\"" << type << "\"}}}]}\n";
+			file <<"\",Count : 1b,tag : {CustomModelData:" << 6901000 + cmd << ",asy:{cmd:" << 6901000 + cmd << ",click:\"" << type << "\"}}}]}\n";
 			cmd = 0;
 			counter = -1;
 		}
 		counter += 1;
 	}
-	file << "\nexecute as @e[type=#aem:billboard,tag=aem.billboard,tag=aem.setup] run function aem:block/billboard/handling/setup";
+	file << "\nexecute as @e[type=#asy:billboard,tag=asy.billboard,tag=asy.setup] run function asy:block/billboard/handling/setup";
 	infile.close();
 	return 0;
 }

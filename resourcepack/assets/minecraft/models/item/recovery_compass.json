@@ -41,35 +41,41 @@
           "predicate": {
             "custom_model_data": 6901000
           },
-          "model": "aem:item/scraper_helmets/empty_1"
+          "model": "asy:item/scraper_helmets/empty_1"
         },{
           "predicate": {
             "custom_model_data": 6901001
           },
-          "model": "aem:item/scraper_helmets/empty_2"
+          "model": "asy:item/scraper_helmets/empty_2"
         },{
           "predicate": {
             "custom_model_data": 6901002
           },
-          "model": "aem:item/scraper_helmets/empty_3"
+          "model": "asy:item/scraper_helmets/empty_3"
         },
         {
           "predicate": {
             "custom_model_data": 6901003
           },
-          "model": "aem:item/iris"
+          "model": "asy:item/iris"
         },
         {
           "predicate": {
             "custom_model_data": 6901004
           },
-          "model": "aem:item/symbiotic_glass"
+          "model": "asy:item/symbiotic_glass"
         },
         {
           "predicate": {
             "custom_model_data": 6901005
           },
-          "model": "aem:item/fleshy_tentacle"
+          "model": "asy:item/fleshy_tentacle"
+        },
+        {
+          "predicate": {
+            "custom_model_data": 6901006
+          },
+          "model": "asy:item/containment_vial"
         }
       ]
     }

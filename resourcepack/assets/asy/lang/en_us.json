@@ -1,0 +1,22 @@
+{
+    "pack.aem":"Symbiote",
+
+    "item.asy.fleshy_tentacle":"Fleshy Tentacle",
+    "item.asy.iris":"Iris",
+    "item.asy.symbiotic_glass":"Symbiotic Glass",
+
+    "block.asy.billboard":"Billboard",
+
+    "entity.asy.scraper":"Scraper",
+    "entity.asy.drippler":"Drippler",
+    "entity.asy.flutterpillar":"Flutterpillar",
+    
+    "entity.asy.symbiote.scraper":"Scrapers are infecting your body!",
+    "entity.asy.symbiote.flutterpillar":"A Flutterpillar is messing with your vision!",
+
+    "entity.asy.symbiote.shake":"Shake your head to throw them off!",
+
+    "subtitle.asy.entity.scraper.hurt":"Scaper is hurt",
+    "subtitle.asy.entity.symbiote.leech":"Scaper leeches onto player",
+    "subtitle.asy.entity.symbiote.throw":"Scaper gets thrown"
+}

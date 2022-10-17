@@ -1,0 +1,1 @@
+execute if entity @s[scores={asy.symbiote=1..}] run function asy:entity/player/symbiote_leech/shake/main

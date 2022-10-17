@@ -1,0 +1,1 @@
+execute if entity @s[tag=asy.scraper] run playsound asy:entity.scraper.hurt hostile @a[distance=..10] ~ ~ ~

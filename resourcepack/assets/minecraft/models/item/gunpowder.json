@@ -4,7 +4,7 @@
       "layer0": "minecraft:item/gunpowder"
     },
     "overrides": [
-      {"predicate": {"custom_model_data": 6901001},"model": "aem:block/billboard/buttons/root"}
+      {"predicate": {"custom_model_data": 6901001},"model": "asy:block/billboard/buttons/root"}
     ]
   }
   

@@ -9,19 +9,19 @@
       "predicate": {
         "custom_model_data": 6901000
       },
-      "model": "aem:entity/scraper"
+      "model": "asy:entity/scraper"
     },
     {
       "predicate": {
         "custom_model_data": 6901001
       },
-      "model": "aem:entity/drippler"
+      "model": "asy:entity/drippler"
     },
     {
       "predicate": {
         "custom_model_data": 6901002
       },
-      "model": "aem:entity/flutterpillar"
+      "model": "asy:entity/flutterpillar"
     }
   ]
 }

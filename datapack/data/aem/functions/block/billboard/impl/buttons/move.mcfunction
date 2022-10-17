@@ -1,2 +1,0 @@
-execute as @e[type=armor_stand,tag=aem.display] if score @s aem.id = .temp aem.data run function aem:block/billboard/impl/buttons/kill
-execute as @e[type=marker,tag=aem.billboard.center,sort=nearest,limit=1] at @s if score @s aem.id = .temp aem.data align xyz run function aem:block/billboard/impl/buttons/marker

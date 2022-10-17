@@ -8,25 +8,25 @@
         "predicate": {
           "custom_model_data": 6901000
         },
-        "model": "aem:item/scraper_helmets/leather_1"
+        "model": "asy:item/scraper_helmets/leather_1"
       },
       {
         "predicate": {
           "custom_model_data": 6901001
         },
-        "model": "aem:item/scraper_helmets/leather_2"
+        "model": "asy:item/scraper_helmets/leather_2"
       },
       {
         "predicate": {
           "custom_model_data": 6901002
         },
-        "model": "aem:item/scraper_helmets/leather_3"
+        "model": "asy:item/scraper_helmets/leather_3"
       },
       {
         "predicate": {
           "custom_model_data": 6901002
         },
-        "model": "aem:item/flutterpillar_helmet"
+        "model": "asy:item/flutterpillar_helmet"
       }
     ]
   }

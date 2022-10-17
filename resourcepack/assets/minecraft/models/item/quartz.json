@@ -4,12 +4,12 @@
       "layer0": "minecraft:item/quartz"
     },
     "overrides": [
-      {"predicate": {"custom_model_data": 6901001},"model": "aem:block/billboard/connectors/en"},
-      {"predicate": {"custom_model_data": 6901002},"model": "aem:block/billboard/connectors/es"},
-      {"predicate": {"custom_model_data": 6901003},"model": "aem:block/billboard/connectors/ew"},
-      {"predicate": {"custom_model_data": 6901004},"model": "aem:block/billboard/connectors/ns"},
-      {"predicate": {"custom_model_data": 6901005},"model": "aem:block/billboard/connectors/nw"},
-      {"predicate": {"custom_model_data": 6901006},"model": "aem:block/billboard/connectors/sw"}
+      {"predicate": {"custom_model_data": 6901001},"model": "asy:block/billboard/connectors/en"},
+      {"predicate": {"custom_model_data": 6901002},"model": "asy:block/billboard/connectors/es"},
+      {"predicate": {"custom_model_data": 6901003},"model": "asy:block/billboard/connectors/ew"},
+      {"predicate": {"custom_model_data": 6901004},"model": "asy:block/billboard/connectors/ns"},
+      {"predicate": {"custom_model_data": 6901005},"model": "asy:block/billboard/connectors/nw"},
+      {"predicate": {"custom_model_data": 6901006},"model": "asy:block/billboard/connectors/sw"}
     ]
   }
   

@@ -11,7 +11,7 @@
             "predicate": {
                 "custom_model_data": 6901000
             },
-            "model": "aem:block/billboard/block"
+            "model": "asy:block/billboard/block"
         }
     ]
   }

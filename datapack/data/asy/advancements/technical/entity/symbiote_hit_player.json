@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "scraper": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:vex",
+            "nbt": "{Tags:[\"asy.scraper\"]}"
+          }
+        }
+      }
+    },
+    "flutterpillar": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:vex",
+            "nbt": "{Tags:[\"asy.flutterpillar\"]}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "scraper",
+      "flutterpillar"
+    ]
+  ],
+  "rewards": {
+    "function": "asy:entity/symbiote/hit_player"
+  }
+}
