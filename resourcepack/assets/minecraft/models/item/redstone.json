@@ -4,12 +4,8 @@
       "layer0": "minecraft:item/redstone"
     },
     "overrides": [
-      {
-        "predicate": {
-          "custom_model_data": 6901000
-        },
-        "model": "asy:block/billboard/display/root"
-      }
+      {"predicate": {"custom_model_data": 6901000},"model": "asy:block/billboard/display/root"},
+      {"predicate": {"custom_model_data": 6901001},"model": "asy:block/billboard/display/iron_rich_blood"}
     ]
   }
   

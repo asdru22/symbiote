@@ -1,2 +1,7 @@
-connector.sw 1 0
-display.root 1 -1
+display.root 0 0 
+connector.ens 1 0
+connector.ns 0 1
+connector.ns 0 2
+display.iron_rich_blood 0 3 
+connector.es 1 1
+connector.en 1 -1

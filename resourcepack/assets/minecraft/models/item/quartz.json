@@ -9,7 +9,8 @@
       {"predicate": {"custom_model_data": 6901003},"model": "asy:block/billboard/connectors/ew"},
       {"predicate": {"custom_model_data": 6901004},"model": "asy:block/billboard/connectors/ns"},
       {"predicate": {"custom_model_data": 6901005},"model": "asy:block/billboard/connectors/nw"},
-      {"predicate": {"custom_model_data": 6901006},"model": "asy:block/billboard/connectors/sw"}
+      {"predicate": {"custom_model_data": 6901006},"model": "asy:block/billboard/connectors/sw"},
+      {"predicate": {"custom_model_data": 6901007},"model": "asy:block/billboard/connectors/wns"}
     ]
   }
   

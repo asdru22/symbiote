@@ -10,10 +10,12 @@ int models(string type) {
 	else if (type == "connector.ns") cmd = 4;
 	else if (type == "connector.nw") cmd = 5;
 	else if (type == "connector.sw") cmd = 6;
+	else if (type == "connector.wns") cmd = 7;
 
-	else if (type == "display.root") cmd = 6;
+	else if (type == "display.root") cmd = 0;
+	else if (type == "display.iron_rich_blood") cmd = 1;
 
-	else (cmd+1)/2.5;
+	else (cmd*2+1)/2;
 	return cmd;
 }
 int main() {
