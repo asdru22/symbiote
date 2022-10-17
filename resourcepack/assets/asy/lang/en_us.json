@@ -17,6 +17,12 @@
 
     "entity.asy.symbiote.shake":"Shake your head to throw them off!",
 
+    "text.aem.billboard_blocks.in_outline":"Blocks to place in outline:",
+    "text.aem.billboard_blocks.purple":"%s: Any kind of wall",
+    "text.aem.billboard_blocks.blue":"%s: Any glass block",
+    "text.aem.billboard_blocks.white":"%s: Billboard block",
+    "text.aem.billboard_blocks.gray":"%s: Optional decoration blocks ",
+
     "subtitle.asy.entity.scraper.hurt":"Scaper is hurt",
     "subtitle.asy.entity.symbiote.leech":"Scaper leeches onto player",
     "subtitle.asy.entity.symbiote.throw":"Scaper gets thrown"

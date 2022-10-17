@@ -28,12 +28,51 @@
               "",
               "",
               "",
-              "",
               {
+                "translate":"text.aem.billboard_blocks.in_outline",
+                "italic":false,
+                "color":"white"},
+                "",
+              {
+                "text":"b",
+                "font":"asy:main",
+                "italic":false,
+                "color":"white"
+              },
+            "",
+            "",
+            "",
+            {
+              "translate":"text.aem.billboard_blocks.purple",
+              "italic":false,
+              "color":"white",
+              "with":[{"text":"⬛","color":"light_purple"}]
+            },
+            {
+              "translate":"text.aem.billboard_blocks.blue",
+              "italic":false,
+              "color":"white",
+              "with":[{"text":"⬛","color":"blue"}]
+            },
+            {
+              "translate":"text.aem.billboard_blocks.white",
+              "italic":false,
+              "color":"white",
+              "with":[{"text":"⬛","color":"white"}]
+            },
+            {
+              "translate":"text.aem.billboard_blocks.gray",
+              "italic":false,
+              "color":"white",
+              "with":[{"text":"⬛","color":"gray"}]
+            },
+            "",
+            {
               "translate": "pack.asy",
               "color": "#990E6B",
               "italic": true
-            }]
+            }
+          ]
           }
         ],
         "name": "minecraft:recovery_compass"
