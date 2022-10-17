@@ -18,7 +18,7 @@ int models(string type) {
 }
 int main() {
 	ofstream file;
-	file.open("C:/Users/aln20/Documents/GitHub/electromancy/datapack/data/aem/functions/block/billboard/handling/tree.mcfunction");
+	file.open("C:/Users/aln20/Documents/GitHub/electromancy/datapack/data/asy/functions/block/billboard/handling/tree.mcfunction");
 	int x, y, cmd,counter =0;
 	ifstream infile;
 	string str,type;

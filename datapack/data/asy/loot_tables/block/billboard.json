@@ -22,7 +22,7 @@
               {
                 "function": "minecraft:set_lore",
                 "lore": [{
-                  "translate": "pack.aem",
+                  "translate": "pack.asy",
                   "color": "#990E6B",
                   "italic": true
                 }]
