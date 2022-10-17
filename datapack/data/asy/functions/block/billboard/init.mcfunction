@@ -8,5 +8,7 @@ scoreboard players operation .temp asy.data = @s asy.id
 execute if entity @s[advancements={asy:technical/block/billboard/interact={click=true}}] run function asy:block/billboard/impl/clicking/main
 execute if score .move asy.data matches 1..4 run function asy:block/billboard/impl/buttons/check
 
+stopsound @s * minecraft:entity.player.attack.strong
+stopsound @s * minecraft:entity.player.attack.crit
 
 advancement revoke @s only asy:technical/block/billboard/interact

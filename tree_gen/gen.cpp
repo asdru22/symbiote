@@ -11,9 +11,17 @@ int models(string type) {
 	else if (type == "connector.nw") cmd = 5;
 	else if (type == "connector.sw") cmd = 6;
 	else if (type == "connector.wns") cmd = 7;
+	else if (type == "connector.ens") cmd = 8;
 
 	else if (type == "display.root") cmd = 0;
 	else if (type == "display.iron_rich_blood") cmd = 1;
+	else if (type == "display.iron_rich_blood") cmd = 1;
+	else if (type == "display.scraper") cmd = 2;
+	else if (type == "display.flutterpillar") cmd = 3;
+	else if (type == "display.flutterfly") cmd = 4;
+	else if (type == "display.fleshy_tentacle") cmd = 5;
+	else if (type == "display.iris") cmd = 6;
+	else if (type == "display.symbiotic_glass") cmd = 7;
 
 	else (cmd*2+1)/2;
 	return cmd;
@@ -27,7 +35,7 @@ int main() {
 	infile.open("in.txt");
 	if (infile.fail()) cout << "fail";
 	while (infile >> str) {
-		cout << str << endl;
+		//cout << str << endl;
 		if (counter == 0) {
 			cmd = models(str);
 			type = str;

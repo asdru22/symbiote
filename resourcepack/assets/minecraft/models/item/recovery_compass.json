@@ -76,6 +76,12 @@
             "custom_model_data": 6901006
           },
           "model": "asy:item/containment_vial"
+        },
+        {
+          "predicate": {
+            "custom_model_data": 6901007
+          },
+          "model": "item/paper"
         }
       ]
     }

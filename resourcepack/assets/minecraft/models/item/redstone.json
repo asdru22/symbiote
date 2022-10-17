@@ -5,7 +5,13 @@
     },
     "overrides": [
       {"predicate": {"custom_model_data": 6901000},"model": "asy:block/billboard/display/root"},
-      {"predicate": {"custom_model_data": 6901001},"model": "asy:block/billboard/display/iron_rich_blood"}
+      {"predicate": {"custom_model_data": 6901001},"model": "asy:block/billboard/display/iron_rich_blood"},
+      {"predicate": {"custom_model_data": 6901002},"model": "asy:block/billboard/display/scraper"},
+      {"predicate": {"custom_model_data": 6901003},"model": "asy:block/billboard/display/flutterpillar"},
+      {"predicate": {"custom_model_data": 6901004},"model": "asy:block/billboard/display/flutterfly"},
+      {"predicate": {"custom_model_data": 6901005},"model": "asy:block/billboard/display/fleshy_tentacle"},
+      {"predicate": {"custom_model_data": 6901006},"model": "asy:block/billboard/display/iris"},
+      {"predicate": {"custom_model_data": 6901007},"model": "asy:block/billboard/display/symbiotic_glass"}
     ]
   }
   

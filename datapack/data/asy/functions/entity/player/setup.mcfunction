@@ -1,0 +1,1 @@
+execute store result score @s asy.id run scoreboard players add .new_id aem.data 1
