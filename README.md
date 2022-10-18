@@ -1,8 +1,3 @@
-### Current Version: Alpha 1.0.2
-Content so far implemented:   
-Scrapers and Dripplers  
-- They have a low chance of spawning when Striders are hit by players
-- They drop nothing 
- 
-Flutterpillars  
-- Spawn conditions yet to be implemented
+### This pack aims to add leeching creatures, Symbiotes, that the player must decide wether to kill or leech onto them.   
+Most information regarding implemented features can be found ingame after crafting the Billboard.  
+[Discord server](https://discord.gg/aUwaJFt)
