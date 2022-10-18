@@ -29,7 +29,7 @@
               "",
               "",
               {
-                "translate":"text.aem.billboard_blocks.in_outline",
+                "translate":"text.asy.billboard_blocks.in_outline",
                 "italic":false,
                 "color":"white"},
                 "",
@@ -43,28 +43,39 @@
             "",
             "",
             {
-              "translate":"text.aem.billboard_blocks.purple",
+              "translate":"text.asy.billboard_blocks.purple",
               "italic":false,
               "color":"white",
               "with":[{"text":"⬛","color":"light_purple"}]
             },
             {
-              "translate":"text.aem.billboard_blocks.blue",
+              "translate":"text.asy.billboard_blocks.blue",
               "italic":false,
               "color":"white",
               "with":[{"text":"⬛","color":"blue"}]
             },
             {
-              "translate":"text.aem.billboard_blocks.white",
+              "translate":"text.asy.billboard_blocks.white",
               "italic":false,
               "color":"white",
               "with":[{"text":"⬛","color":"white"}]
             },
             {
-              "translate":"text.aem.billboard_blocks.gray",
+              "translate":"text.asy.billboard_blocks.gray",
               "italic":false,
               "color":"white",
               "with":[{"text":"⬛","color":"gray"}]
+            },
+            {
+              "translate":"text.asy.billboard_flip_suggestion",
+              "color":"yellow",
+              "italic":false,
+              "with":[
+                {
+                  "text":"/trigger asy.billboard_flip",
+                  "underlined":true
+                }
+              ]
             },
             "",
             {

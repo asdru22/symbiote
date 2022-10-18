@@ -18,5 +18,13 @@
             "asy:entity/scraper/hurt_3"
         ],
         "subtitle" : "subtitle.asy.entity.scraper.hurt"
+    },
+    "entity.flutterpillar.hurt": {
+        "sounds":   [
+            "asy:entity/flutterpillar/hurt_1",
+            "asy:entity/flutterpillar/hurt_2",
+            "asy:entity/flutterpillar/hurt_3"
+        ],
+        "subtitle" : "subtitle.asy.entity.flutterpillar.hurt"
     }
 }

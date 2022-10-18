@@ -5,6 +5,7 @@ scoreboard objectives add asy.id dummy
 scoreboard objectives add asy.symbiote dummy
 scoreboard objectives add asy.max_symbiote dummy
 scoreboard objectives add asy.symbiote_id dummy
+scoreboard objectives add asy.billboard_flip trigger
 
 scoreboard players set const.-1 asy.data -1
 

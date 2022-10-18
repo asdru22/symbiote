@@ -1,7 +1,10 @@
-execute if score .move asy.data matches 2 if score @s asy.x matches -450.. run scoreboard players remove @s asy.x 50
-execute if score .move asy.data matches 1 if score @s asy.x matches ..450 run scoreboard players add @s asy.x 50
-execute if score .move asy.data matches 3 if score @s asy.y matches -450.. run scoreboard players remove @s asy.y 50
-execute if score .move asy.data matches 4 if score @s asy.y matches ..450 run scoreboard players add @s asy.y 50
+scoreboard players set .add asy.data 50
+execute if score .flip asy.data matches 1 run scoreboard players operation .add asy.data *= const.-1 asy.data
+
+execute if score .move asy.data matches 2 if score @s asy.x matches -450.. run scoreboard players operation @s asy.x -= .add asy.data
+execute if score .move asy.data matches 1 if score @s asy.x matches ..450 run scoreboard players operation @s asy.x += .add asy.data
+execute if score .move asy.data matches 3 if score @s asy.y matches -450.. run scoreboard players operation @s asy.y -= .add asy.data
+execute if score .move asy.data matches 4 if score @s asy.y matches ..450 run scoreboard players operation @s asy.y += .add asy.data
 
 scoreboard players set .override asy.data 1
 execute positioned ~1 ~0.25 ~0.25 run function asy:block/billboard/impl/buttons/override
