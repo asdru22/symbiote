@@ -31,7 +31,7 @@ int main() {
 
 	int x, y, cmd, counter = 0, iter = 0;
 	ifstream infile;
-	string str, type;
+	string str, type,progress;
 	infile.open("C:/Users/aln20/Documents/GitHub/electromancy/tree_gen/in.txt");
 
 	gunpowder << "{\"parent\": \"minecraft:item/generated\",\"textures\": {\"layer0\": \"minecraft:item/gunpowder\"},\"overrides\": [";
@@ -41,13 +41,16 @@ int main() {
 	while (infile >> str) {
 		//cout << str << endl;
 		if (counter == 0) {
+			progress = str;
+		}
+		else if (counter == 1) {
 			type = str;
 			if (type[0] == '$') cmd = models(str);
-		}
-		else if (counter == 1)  x = stoi(str);
-		else if (counter == 2) {
+		} 
+		else if (counter == 2) x = stoi(str);
+		else if (counter == 3) {
 			y = stoi(str);
-			file << "summon armor_stand ~ ~" << y / 2.0 << " ~" << x / 2.0;
+			file << "execute if score .progress asy.data matches "<<progress<<" run summon armor_stand ~ ~" << y / 2.0 << " ~" << x / 2.0;
 			file << " {NoGravity:1b, Invulnerable : 1b, Marker : 1b, Invisible:1b, Tags : [\"asy.billboard\", \"asy.display\", \"asy.setup\"], ArmorItems : [{}, {}, {}, { id:\"minecraft:";
 			if (type[0] == '$') {// if connector
 				type = "connector";
