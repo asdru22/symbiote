@@ -24,9 +24,9 @@ int models(string type) {
 	return cmd;
 }
 int main() {
-	ofstream file, redstone, gunpowder, writer;
+	ofstream file, glass, gunpowder, writer;
 	file.open("C:/Users/aln20/Documents/GitHub/electromancy/datapack/data/asy/functions/block/billboard/handling/tree.mcfunction");
-	redstone. open("C:/Users/aln20/Documents/GitHub/electromancy/resourcepack/assets/minecraft/models/item/redstone.json");
+	glass.open("C:/Users/aln20/Documents/GitHub/electromancy/resourcepack/assets/minecraft/models/item/glass.json");
 	gunpowder.open("C:/Users/aln20/Documents/GitHub/electromancy/resourcepack/assets/minecraft/models/item/gunpowder.json");
 
 	int x, y, cmd, counter = 0, iter = 0;
@@ -35,7 +35,7 @@ int main() {
 	infile.open("C:/Users/aln20/Documents/GitHub/electromancy/tree_gen/in.txt");
 
 	gunpowder << "{\"parent\": \"minecraft:item/generated\",\"textures\": {\"layer0\": \"minecraft:item/gunpowder\"},\"overrides\": [";
-	redstone << "{\"parent\": \"minecraft:item/generated\",\"textures\": {\"layer0\": \"minecraft:item/redstone\"},\"overrides\": [";
+	glass << "{\"parent\": \"minecraft:block/cube_all\",\"textures\": {\"all\": \"minecraft:block/glass\"},\"overrides\": [";
 
 	if (infile.fail()) cout << "fail";
 	while (infile >> str) {
@@ -60,7 +60,7 @@ int main() {
 			else {
 				file << "gunpowder\",Count : 1b,tag : {CustomModelData:" << 6901000 + iter << ",asy:{cmd:" << 6901000 + iter << ",click:\"" << type.erase(0, 1) << "\"}}}]}\n";
 
-				redstone << "{\"predicate\": {\"custom_model_data\": " << 6901000 + iter << "},\"model\": \"asy:block/billboard/display/" << type << "\"},\n";
+				glass << "{\"predicate\": {\"custom_model_data\": " << 6901000 + iter << "},\"model\": \"asy:block/billboard/display/" << type << "\"},\n";
 				gunpowder << "{\"predicate\": {\"custom_model_data\": " << 6901000 + iter << "},\"model\": \"asy:block/billboard/buttons/" << type << "\"},\n";
 
 				writer.open("C:/Users/aln20/Documents/GitHub/electromancy/resourcepack/assets/asy/models/block/billboard/buttons/" + type + ".json");
@@ -79,9 +79,9 @@ int main() {
 		counter += 1;
 	}
 	file << "\nexecute as @e[type=#asy:billboard,tag=asy.billboard,tag=asy.setup] run function asy:block/billboard/handling/setup";
-	redstone << "]}";
+	glass << "]}";
 	gunpowder << "]}";
-	redstone.close();
+	glass.close();
 	gunpowder.close();
 
 	infile.close();

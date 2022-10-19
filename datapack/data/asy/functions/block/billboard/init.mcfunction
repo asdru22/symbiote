@@ -4,7 +4,7 @@ execute if entity @s[advancements={asy:technical/block/billboard/interact={left=
 execute if entity @s[advancements={asy:technical/block/billboard/interact={right=true}}] run scoreboard players set .move asy.data 4
 
 scoreboard players operation .temp asy.data = @s asy.id
-scoreboard players operation .temp asy.progress = @s asy.progress
+scoreboard players operation .progress asy.data = @s asy.progress
 
 execute store success score .flip asy.data if entity @s[tag=asy.billboard_flip]
 execute if entity @s[advancements={asy:technical/block/billboard/interact={click=true}}] run function asy:block/billboard/impl/clicking/main
