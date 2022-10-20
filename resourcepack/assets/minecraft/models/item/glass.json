@@ -5,5 +5,7 @@
 {"predicate": {"custom_model_data": 6901004},"model": "asy:block/billboard/display/flutterpillar"},
 {"predicate": {"custom_model_data": 6901005},"model": "asy:block/billboard/display/flutterfly"},
 {"predicate": {"custom_model_data": 6901006},"model": "asy:block/billboard/display/iris"},
-{"predicate": {"custom_model_data": 6901007},"model": "asy:block/billboard/display/symbiotic_glass"}
+{"predicate": {"custom_model_data": 6901007},"model": "asy:block/billboard/display/glass_visor"},
+{"predicate": {"custom_model_data": 6901008},"model": "asy:block/billboard/display/symbiotic_glass"},
+{"predicate": {"custom_model_data": 6901009},"model": "asy:block/billboard/display/containment_vial"}
 ]}
