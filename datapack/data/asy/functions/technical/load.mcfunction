@@ -7,6 +7,7 @@ scoreboard objectives add asy.max_symbiote dummy
 scoreboard objectives add asy.symbiote_id dummy
 scoreboard objectives add asy.billboard_flip trigger
 scoreboard objectives add asy.progress dummy
+scoreboard objectives add asy.use_warped_fungus_on_a_stick minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard players set const.-1 asy.data -1
 
 function asy:technical/20_ticks

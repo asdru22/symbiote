@@ -3,6 +3,7 @@
     "scraper": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
+        "player": [],
         "damage": {
           "source_entity": {
             "type": "minecraft:vex",
@@ -21,9 +22,45 @@
           }
         }
       }
+    },
+    "target_player": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{smithed:{id:\"asy:glass_visor\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{Tags:[\"asy.symbiote.ignore\"]}"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
+    [
+      "target_player"
+    ],
     [
       "scraper",
       "flutterpillar"
