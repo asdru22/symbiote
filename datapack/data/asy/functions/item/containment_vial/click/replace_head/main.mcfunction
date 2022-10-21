@@ -1,0 +1,6 @@
+scoreboard players add @s asy.symbiote 1
+function asy:item/containment_vial/click/replace_head/symbiotes
+execute if score @s asy.symbiote > @s asy.max_symbiote run function asy:entity/player/symbiote_leech/has_max_symbiotes
+playsound asy:entity.symbiote.leech hostile @a[distance=..10] ~ ~ ~ 2 0.85
+execute if data entity @s Inventory[{Slot:103b}].Count run function asy:entity/player/symbiote_leech/has_helmet
+execute unless data entity @s Inventory[{Slot:103b}].Count run function asy:entity/player/symbiote_leech/no_helmet

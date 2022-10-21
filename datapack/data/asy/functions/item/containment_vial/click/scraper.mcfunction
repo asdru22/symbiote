@@ -1,2 +1,3 @@
-function asy:commands/summon/scraper
-clear @s warped_fungus_on_a_stick{asy:{VialEntity:"asy:scraper"}}
+scoreboard players set .temp asy.data 1
+execute if predicate asy:player/sneaking run function asy:commands/summon/scraper
+execute unless predicate asy:player/sneaking run function asy:item/containment_vial/click/replace_head/main

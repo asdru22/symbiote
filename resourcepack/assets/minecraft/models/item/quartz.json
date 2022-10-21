@@ -11,7 +11,8 @@
       {"predicate": {"custom_model_data": 6901005},"model": "asy:block/billboard/connectors/nw"},
       {"predicate": {"custom_model_data": 6901006},"model": "asy:block/billboard/connectors/sw"},
       {"predicate": {"custom_model_data": 6901007},"model": "asy:block/billboard/connectors/wns"},
-      {"predicate": {"custom_model_data": 6901008},"model": "asy:block/billboard/connectors/ens"}
+      {"predicate": {"custom_model_data": 6901008},"model": "asy:block/billboard/connectors/ens"},
+      {"predicate": {"custom_model_data": 6901009},"model": "asy:block/billboard/connectors/enw"}
     ]
   }
   

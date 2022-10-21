@@ -88,6 +88,12 @@
             "custom_model_data": 6901008
           },
           "model": "asy:item/iron_rich_blood"
+        },
+        {
+          "predicate": {
+            "custom_model_data": 6901009
+          },
+          "model": "asy:item/celadon"
         }
       ]
     }

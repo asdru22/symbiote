@@ -19,6 +19,7 @@ int models(string type) {
 	else if (type == "$sw") cmd = 6;
 	else if (type == "$wns") cmd = 7;
 	else if (type == "$ens") cmd = 8;
+	else if (type == "$enw") cmd = 9;
 
 	else (cmd * 2 + 1) / 2;
 	return cmd;
