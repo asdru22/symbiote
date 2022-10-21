@@ -27,6 +27,12 @@
           "custom_model_data": 6901002
         },
         "model": "asy:item/flutterpillar_helmet"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 6901003
+        },
+        "model": "asy:item/flutterfly_helmet"
       }
     ]
   }

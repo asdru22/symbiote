@@ -22,6 +22,12 @@
         "custom_model_data": 6901002
       },
       "model": "asy:entity/flutterpillar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6901003
+      },
+      "model": "asy:entity/flutterfly"
     }
   ]
 }

@@ -82,6 +82,12 @@
             "custom_model_data": 6901007
           },
           "model": "item/paper"
+        },
+        {
+          "predicate": {
+            "custom_model_data": 6901008
+          },
+          "model": "asy:item/iron_rich_blood"
         }
       ]
     }

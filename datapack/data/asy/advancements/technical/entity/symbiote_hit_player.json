@@ -23,6 +23,17 @@
         }
       }
     },
+    "flutterfly": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:vex",
+            "nbt": "{Tags:[\"asy.flutterfly\"]}"
+          }
+        }
+      }
+    },
     "target_player": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
@@ -63,7 +74,8 @@
     ],
     [
       "scraper",
-      "flutterpillar"
+      "flutterpillar",
+      "flutterfly"
     ]
   ],
   "rewards": {

@@ -6,7 +6,8 @@
     "overrides": [
       {"predicate": {"custom_model_data": 6901000},"model": "asy:item/containment_vial_full/scraper"},
       {"predicate": {"custom_model_data": 6901001},"model": "asy:item/containment_vial_full/flutterpillar"},
-      {"predicate": {"custom_model_data": 6901002},"model": "asy:item/glass_visor"}
+      {"predicate": {"custom_model_data": 6901002},"model": "asy:item/glass_visor"},
+      {"predicate": {"custom_model_data": 6901003},"model": "asy:item/containment_vial_full/flutterfly"}
     ]
   }
   

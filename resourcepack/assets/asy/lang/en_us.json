@@ -7,13 +7,15 @@
     "item.asy.billboard_crafting_recipe":"Billboard Crafting Recipe",
     "item.asy.containment_vial":"Containment Vial",
     "item.asy.glass_visor":"Glass Visor",
+    "item.asy.iron_rich_blood":"Iron-Rich Blood",
 
     "block.asy.billboard":"Billboard",
 
     "entity.asy.scraper":"Scraper",
     "entity.asy.drippler":"Drippler",
     "entity.asy.flutterpillar":"Flutterpillar",
-    
+    "entity.asy.flutterfly":"Flutterfly",
+
     "entity.asy.symbiote.scraper":"Scrapers are infecting your body!",
     "entity.asy.symbiote.flutterpillar":"A Flutterpillar is messing with your vision!",
 
