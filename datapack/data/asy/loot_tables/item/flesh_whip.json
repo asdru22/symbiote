@@ -6,12 +6,12 @@
         "weight": 1,
         "functions": [{
             "function": "set_nbt",
-            "tag": "{CustomModelData:6901002,smithed:{id:\"asy:glass_visor\",durability:{max:65}},AttributeModifiers:[]}"
+            "tag": "{CustomModelData:6901004,smithed:{id:\"asy:flesh_whip\",durability:{max:200}}}"
           },
           {
             "function": "minecraft:set_name",
             "name": {
-              "translate": "item.asy.glass_visor",
+              "translate": "item.asy.flesh_whip",
               "italic": false
             }
           },
@@ -24,7 +24,7 @@
             }]
           }
         ],
-        "name": "minecraft:chainmail_helmet"
+        "name": "minecraft:warped_fungus_on_a_stick"
       }]
     }]
   }
