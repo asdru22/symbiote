@@ -1,7 +1,7 @@
 ### Symbiote  
 This pack adds leeching creatures, Symbiotes, that can leech onto players.   
-All information regarding implemented features/progression/recipes can be found ingame after crafting the Billboard.
-[Download Page](https://smithed.dev/packs/asdru22/asb)
+All information regarding implemented features/progression/recipes can be found ingame after crafting the Billboard.  
+[Download Page](https://smithed.dev/packs/asdru22/asb)  
 [Discord server](https://discord.gg/aUwaJFt)
 ### Implemented features (as of 1.1.3)
 ##### Mobs:
