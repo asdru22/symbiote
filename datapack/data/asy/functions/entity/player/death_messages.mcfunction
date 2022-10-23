@@ -1,0 +1,1 @@
+execute if entity @s[tag=asy.damage.bloater] run tellraw @a {"translate":"death.asy.bloater","with":[{"selector":"@s"}]}

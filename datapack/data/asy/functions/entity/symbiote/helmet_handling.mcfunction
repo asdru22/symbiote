@@ -1,3 +1,4 @@
 execute if entity @s[scores={asy.symbiote_id=1}] run function asy:entity/scraper/helmet
 execute if entity @s[scores={asy.symbiote_id=2}] run function asy:entity/flutterpillar/helmet
 execute if entity @s[scores={asy.symbiote_id=3}] run function asy:entity/flutterfly/helmet
+execute if entity @s[scores={asy.symbiote_id=4}] run function asy:entity/bloater/helmet/has_helmet

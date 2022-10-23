@@ -18,9 +18,11 @@
     "entity.asy.drippler":"Drippler",
     "entity.asy.flutterpillar":"Flutterpillar",
     "entity.asy.flutterfly":"Flutterfly",
+    "entity.asy.bloater":"Bloater",
 
     "entity.asy.symbiote.scraper":"Scrapers are infecting your body!",
     "entity.asy.symbiote.flutterpillar":"A Flutterpillar is messing with your vision!",
+    "entity.asy.symbiote.bloater":"A Bloater is sucking your blood!",
 
     "entity.asy.symbiote.shake":"Shake your head to throw them off!",
 
@@ -32,10 +34,13 @@
     "text.asy.billboard_flip":"Flipped Billboard Controls!",
     "text.asy.billboard_flip_suggestion":"Type %s to invert Billboard buttons!",
 
-
+    "death.asy.bloater":"%s ran out of red cells",
     
     "subtitle.asy.entity.symbiote.leech":"Scaper leeches onto player",
     "subtitle.asy.entity.symbiote.throw":"Scaper gets thrown",
     "subtitle.asy.entity.scraper.hurt":"Scaper is hurt",
-    "subtitle.asy.entity.flutterpillar.hurt":"Flutterpillar is hurt"
+    "subtitle.asy.entity.flutterpillar.hurt":"Flutterpillar is hurt",
+    "subtitle.asy.item.whip.use":"Whip lashes",
+    "subtitle.asy.item.whip.crack":"Whip cracks"
+
 }

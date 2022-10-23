@@ -34,6 +34,17 @@
         }
       }
     },
+    "bloater": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:vex",
+            "nbt": "{Tags:[\"asy.bloater\"]}"
+          }
+        }
+      }
+    },
     "target_player": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
@@ -75,7 +86,8 @@
     [
       "scraper",
       "flutterpillar",
-      "flutterfly"
+      "flutterfly",
+      "bloater"
     ]
   ],
   "rewards": {
