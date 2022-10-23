@@ -26,5 +26,19 @@
             "asy:entity/flutterpillar/hurt_3"
         ],
         "subtitle" : "subtitle.asy.entity.flutterpillar.hurt"
+    },
+    "item.whip.use": {
+        "sounds":   [
+            "asy:item/whip/use1",
+            "asy:item/whip/use2",
+            "asy:item/whip/use3"
+        ],
+        "subtitle" : "subtitle.asy.item.whip.use"
+    },
+    "item.whip.crack": {
+        "sounds":   [
+            "asy:item/whip/crack"
+        ],
+        "subtitle" : "subtitle.asy.item.whip.crack"
     }
 }
