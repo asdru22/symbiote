@@ -77,6 +77,11 @@
                 }
               ]
             },
+            {
+              "translate":"text.asy.billboard_seak",
+              "color":"yellow",
+              "italic":false
+            },
             "",
             {
               "translate": "pack.asy",

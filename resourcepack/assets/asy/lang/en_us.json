@@ -10,6 +10,7 @@
     "item.asy.iron_rich_blood":"Iron-Rich Blood",
     "item.asy.celadon":"Celadon",
     "item.asy.flesh_whip":"Flesh Whip",
+    "item.asy.bloater_skin":"Bloater Skin",
 
 
     "block.asy.billboard":"Billboard",
@@ -26,13 +27,15 @@
 
     "entity.asy.symbiote.shake":"Shake your head to throw them off!",
 
-    "text.asy.billboard_blocks.in_outline":"Blocks to place in outline:",
+    "text.asy.billboard_blocks.in_outline":"Blocks to place in outline (while facing East):",
     "text.asy.billboard_blocks.purple":"%s: Any kind of wall",
     "text.asy.billboard_blocks.blue":"%s: Any glass block",
     "text.asy.billboard_blocks.white":"%s: Billboard block",
     "text.asy.billboard_blocks.gray":"%s: Optional decoration blocks ",
     "text.asy.billboard_flip":"Flipped Billboard Controls!",
     "text.asy.billboard_flip_suggestion":"Type %s to invert Billboard buttons!",
+    "text.asy.billboard_seak":"Sneak when clicking to move faster",
+
 
     "death.asy.bloater":"%s ran out of red cells",
     "death.asy.bloater_explode":"%s couln't let go of a Bloater",

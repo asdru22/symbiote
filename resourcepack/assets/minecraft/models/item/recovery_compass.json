@@ -94,6 +94,12 @@
             "custom_model_data": 6901009
           },
           "model": "asy:item/celadon"
+        },
+        {
+          "predicate": {
+            "custom_model_data": 6901010
+          },
+          "model": "asy:item/bloater_skin"
         }
       ]
     }

@@ -1,4 +1,5 @@
 scoreboard players set .add asy.data 50
+execute if score .sneak asy.data matches 1 run scoreboard players operation .add asy.data *= const.5 asy.data
 execute if score .flip asy.data matches 1 run scoreboard players operation .add asy.data *= const.-1 asy.data
 
 execute if score .move asy.data matches 2 if score @s asy.x matches -450.. run scoreboard players operation @s asy.x -= .add asy.data
