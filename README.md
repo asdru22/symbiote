@@ -7,8 +7,9 @@ All information regarding implemented features/progression/recipes can be found 
 ##### Mobs:
 - Scraper and Drippler variant
 - Flutterfly and Flutterpillar mutation
+- Bloater
 ##### Items:
-- Materials: Iris, Fleshy Tentacle, Iron-Rich Blood, Symbiotic Glass, Celadon
+- Materials: Iris, Fleshy Tentacle, Iron-Rich Blood, Symbiotic Glass, Celadon, Bloater Flesh
 - Weapons: Flesh Whip
 - Armror: Glass Visor
 - Other: Containment Vial
