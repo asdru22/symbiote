@@ -1,4 +1,4 @@
-execute if entity @s[advancements={asy:technical/entity/symbiote_hit_player={scraper=true}}] run function asy:entity/scraper/set_max
-execute if entity @s[advancements={asy:technical/entity/symbiote_hit_player={flutterpillar=true}}] run function asy:entity/flutterpillar/set_max
-execute if entity @s[advancements={asy:technical/entity/symbiote_hit_player={flutterfly=true}}] run function asy:entity/flutterfly/set_max
-execute if entity @s[advancements={asy:technical/entity/symbiote_hit_player={bloater=true}}] run function asy:entity/bloater/set_max
+scoreboard players operation @s asy.symbiote_id = .id asy.data
+
+execute if score .id asy.data matches 1 run scoreboard players set @s asy.max_symbiote 3
+execute if score .id asy.data matches 2..4 run scoreboard players set @s asy.max_symbiote 1

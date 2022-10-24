@@ -35,6 +35,8 @@
     "text.asy.billboard_flip_suggestion":"Type %s to invert Billboard buttons!",
 
     "death.asy.bloater":"%s ran out of red cells",
+    "death.asy.bloater_explode":"%s couln't let go of a Bloater",
+
     
     "subtitle.asy.entity.symbiote.leech":"Scaper leeches onto player",
     "subtitle.asy.entity.symbiote.throw":"Scaper gets thrown",

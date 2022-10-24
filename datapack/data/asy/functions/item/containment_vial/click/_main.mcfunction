@@ -3,4 +3,4 @@ execute if predicate asy:item/containment_vial_full/flutterpillar run function a
 execute if predicate asy:item/containment_vial_full/flutterfly run function asy:item/containment_vial/click/flutterfly
 execute if predicate asy:item/containment_vial_full/bloater run function asy:item/containment_vial/click/bloater
 
-loot give @s loot asy:item/containment_vial
+execute if score @s asy.symbiote < @s asy.max_symbiote run loot give @s loot asy:item/containment_vial
