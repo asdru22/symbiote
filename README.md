@@ -1,3 +1,5 @@
+## SMITHED CRAFTER CRAFTING RECIPE:
+![At Crafting Table](https://cdn.discordapp.com/attachments/732246092774899713/1034194858707001444/unknown.png)
 ### Symbiote   
 This pack adds leeching creatures, Symbiotes, that can leech onto players.   
 All information regarding implemented features/progression/recipes can be found ingame after crafting the Billboard.    
