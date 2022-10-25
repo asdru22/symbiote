@@ -11,6 +11,8 @@
     "item.asy.celadon":"Celadon",
     "item.asy.flesh_whip":"Flesh Whip",
     "item.asy.bloater_skin":"Bloater Skin",
+    "item.asy.envoyant_egg":"Envoyant Egg",
+    "item.asy.hive_seeds":"Hive Seeds",
 
 
     "block.asy.billboard":"Billboard",
@@ -20,6 +22,7 @@
     "entity.asy.flutterpillar":"Flutterpillar",
     "entity.asy.flutterfly":"Flutterfly",
     "entity.asy.bloater":"Bloater",
+    "entity.asy.envoyant":"Envoyant",
 
     "entity.asy.symbiote.scraper":"Scrapers are infecting your body!",
     "entity.asy.symbiote.flutterpillar":"A Flutterpillar is messing with your vision!",

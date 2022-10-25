@@ -100,6 +100,12 @@
             "custom_model_data": 6901010
           },
           "model": "asy:item/bloater_skin"
+        },
+        {
+          "predicate": {
+            "custom_model_data": 6901011
+          },
+          "model": "asy:item/envoyant_egg"
         }
       ]
     }

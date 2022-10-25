@@ -34,6 +34,18 @@
         "custom_model_data": 6901004
       },
       "model": "asy:entity/bloater"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6901005
+      },
+      "model": "asy:entity/envoyant/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6901006
+      },
+      "model": "asy:entity/envoyant/body"
     }
   ]
 }

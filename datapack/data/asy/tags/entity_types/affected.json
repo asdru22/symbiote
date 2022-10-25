@@ -1,6 +1,7 @@
 {
     "values": [
         "minecraft:vex",
-        "#asy:billboard"
+        "#asy:billboard",
+        "villager"
     ]
 }
